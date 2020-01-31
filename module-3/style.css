@@ -104,14 +104,19 @@ text-align: center; }
 
 
 
-
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 30px ;
+     }
 
 
 .photo-style{
     font-size: 14px;
     text-transform: uppercase;
     margin:0 ;
-    margin-top: 30px;
+    margin-bottom: 30px;
     font-weight: lighter;
 
     color: #b4ad9e;
@@ -126,13 +131,13 @@ font-family: 'Ubuntu' , serif;
 .heading{
     font-size: 30px;
     margin: 0;
-    margin-top: 30px;
+    margin-bottom: 35px;
 }
 
 .paragraph{
     font-size: 14px;
     margin: 0;
-    margin-top: 40px;
+    
 }
 
 button {
