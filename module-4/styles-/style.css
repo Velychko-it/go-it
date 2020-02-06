@@ -121,6 +121,7 @@ html{
       float: left;
       margin-right: 30px;
       list-style: none;
+      
   }
 
   .products-list-item:nth-child(4n)
@@ -135,6 +136,7 @@ html{
      text-decoration: none;
      text-transform: uppercase;
      display: block;
+     margin-bottom: 30px;
     
 
  }
@@ -144,6 +146,8 @@ html{
     font-size: 18px;
     color:#ffffff;
     
+    
+   
     }
 
    
@@ -154,12 +158,16 @@ html{
         float: left;
         background-color:#1d1e1e;
         height: 40px;
+        padding: 0;
+        margin: 0;
     }
     .price{
         width: 45px;
         height: 40px;
         float: left;
         background-color: #cbced3;
+        padding: 0;
+        margin: 0;
     }
 
 
