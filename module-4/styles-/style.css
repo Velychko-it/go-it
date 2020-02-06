@@ -35,6 +35,9 @@ html{
             padding-left: 30px;
             margin: 0 auto;
         }
+        .page-header{
+            padding-top: 10px;
+        }
 
     .site-navigation { 
         font-size: 14px ;
@@ -43,7 +46,7 @@ html{
         margin: 0;
         padding: 0;
         float: right;
-        margin-top: 32px;
+      
         
 
     }
@@ -68,7 +71,7 @@ html{
     display: inline-block;
     width: 80px;
     height:30px ;
-    margin-top: 35px;
+   
    
 }
 .site-navigation a:hover,
@@ -82,14 +85,15 @@ html{
 
 
   h2{
-      display: block;
+      
       font-size: 45px;
-      line-height: 32px ;
+      
       color: #515151;
       text-transform: uppercase;
       text-align: center;
+      margin-top: 0;
       margin-bottom: 130px;
-height: 130px;
+
       
   }
   h2::after {
@@ -105,12 +109,15 @@ height: 130px;
   }
 
 
-
+.product-list{
+    margin: 0;
+    padding: 0;
+}
   
   
   .products-list-item
   {
-      width: 255px;
+      width: 245px;
       float: left;
       margin-right: 30px;
       list-style: none;
@@ -120,10 +127,14 @@ height: 130px;
   {
       margin-right: 0;
   }
+  .products-list-item:nth-child(8n){
+      margin-right: 0;
+  }
   
  .product-link{
      text-decoration: none;
      text-transform: uppercase;
+     display: block;
     
 
  }
@@ -132,24 +143,27 @@ height: 130px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color:#ffffff;
-   
+    
     }
 
-    .inside-products:hover{
-        color:#1abc9c;
-    }
+   
+        
+    
     .about-products{
         width: 200px;
         float: left;
-        background-color:#1d1e1e
+        background-color:#1d1e1e;
+        height: 40px;
     }
     .price{
-        width: 55px;
+        width: 45px;
+        height: 40px;
         float: left;
         background-color: #cbced3;
     }
 
 
+    
 
 
 
@@ -176,6 +190,7 @@ height: 130px;
       font-size: 18px;
       line-height: 26px;
       margin: 0;
+      margin-bottom:50px ;
   }
 
 
@@ -193,10 +208,15 @@ background-color: #1abc9c;
 
 }
 
+.article-image{
+    margin-bottom: 20px;
+}
 
 
-
-
+.text{ 
+margin: 0;
+margin-bottom:15px ;
+}
 
 
 .read-more{
@@ -205,13 +225,16 @@ background-color: #1abc9c;
     background-color: #4ec6ab;
     color: #ffffff;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 50px;
     display: block;
     text-align: center;
     text-decoration: none;
    
 }
- 
+ .read-more:hover{
+     color:black;
+
+ }
 
   
 
