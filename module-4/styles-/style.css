@@ -137,10 +137,10 @@ html{
      text-transform: uppercase;
      display: block;
      margin-bottom: 30px;
-    
-
- }
+    }
   
+
+
  .inside-products{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -148,6 +148,9 @@ html{
     
     
    
+    }
+    .inside-products:hover{
+        background-color:#1abc9c;
     }
 
    
@@ -157,9 +160,12 @@ html{
         width: 200px;
         float: left;
         background-color:#1d1e1e;
+        font-size: 18px;
+        line-height: 30px;
         height: 40px;
         padding: 0;
         margin: 0;
+        text-align: center;
     }
     .price{
         width: 45px;
@@ -171,7 +177,9 @@ html{
     }
 
 
-    
+    .about-products:hover{
+        background-color: #1abc9c;
+    }
 
 
 
