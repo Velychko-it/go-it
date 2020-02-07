@@ -37,6 +37,7 @@ html{
         }
         .page-header{
             padding-top: 10px;
+            padding-bottom: 100px;
         }
 
     .site-navigation { 
@@ -78,9 +79,6 @@ html{
 .site-navigation a:focus {
   color:#1abc9c;}
     
-  .navigation{
-      margin-bottom: 100px;
-  }
 
 
 
@@ -110,8 +108,8 @@ html{
 
 
 .product-list{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
   
   
@@ -121,6 +119,7 @@ html{
       float: left;
       margin-right: 30px;
       list-style: none;
+      margin-bottom: 30px;
       
   }
 
@@ -136,23 +135,21 @@ html{
      text-decoration: none;
      text-transform: uppercase;
      display: block;
-     margin-bottom: 30px;
+    
+     
     }
-  
-
-
+   
  .inside-products{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color:#ffffff;
+   
+   color: #ffff;
     
     
    
     }
-    .inside-products:hover{
-        background-color:#1abc9c;
-    }
-
+    
+ 
    
         
     
@@ -177,16 +174,15 @@ html{
     }
 
 
-    .about-products:hover{
+   
+
+
+
+
+
+    .product-link:hover .inside-products{
         background-color: #1abc9c;
     }
-
-
-
-
-
-
-
 
 
 
@@ -251,7 +247,3 @@ margin-bottom:15px ;
      color:black;
 
  }
-
-  
-
-  
