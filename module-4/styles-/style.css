@@ -106,7 +106,7 @@ html{
   }
 
 
-.products-list{
+  .products-list{
     padding: 0;
     margin: 0;
     margin-bottom: 100px;
@@ -115,7 +115,7 @@ html{
   
   .products-list-item
   {
-      width: 245px;
+      width: 255px;
       float: left;
       margin-right: 30px;
       list-style: none;
@@ -133,9 +133,10 @@ html{
       margin-right: 0;
      
   }
-  
+  .products-list-item:nth-child(n+4){
+      margin-bottom: 0;
+  }
  
-
 
  .product-link{
      text-decoration: none;
@@ -171,7 +172,7 @@ html{
         text-align: center;
     }
     .price{
-        width: 45px;
+        width: 55px;
         height: 40px;
         float: left;
         background-color: #c7c7c7;
