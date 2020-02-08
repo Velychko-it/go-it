@@ -109,7 +109,7 @@ html{
   .products-list{
     padding: 0;
     margin: 0;
-    margin-bottom: 100px;
+   
 }
   
   
@@ -123,7 +123,9 @@ html{
       
   }
   
-
+.section-page{
+    margin-bottom: 100px;
+}
 
   .products-list-item:nth-child(4n)
   {
@@ -191,7 +193,7 @@ html{
         background-color: #1abc9c;
       }
 
-.price:hover{
+.product-link:hover .price{
     background-color:#caeae6;
 }
 
