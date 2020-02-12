@@ -1,0 +1,392 @@
+html{
+
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+    
+
+    body{
+        font-family: 'Open Sans', sans-serif;
+        font-size:14px;
+        line-height: 26px;
+        color: #555252;
+    }
+    
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+
+
+      .clearfix::after {
+        display: table;
+        content: '';
+        clear: both;}
+
+        .container{
+            width: 1110px;
+           
+            margin: 0 auto;
+        }
+
+        .page-header{
+            padding-top: 35px;
+            padding-bottom: 34px;
+        }
+
+    .site-navigation { 
+        font-size: 14px ;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+      
+        
+
+    }
+   .site-navigation li {
+       float: left;
+       
+   }
+    
+.site-navigation li:not( :last-child) {
+  margin-right: 35px;}
+
+
+    .navigation a {
+        color:#0f0101;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+.site-logo {
+    display: inline-block;
+    width: 80px;
+    height:30px ;
+  
+   
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color:#1abc9c;}
+     
+
+
+
+
+.slider{
+    position: relative;
+}
+
+.slider-image {
+    object-fit: cover;
+    width: 100%;
+}
+.overlay-image::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,2);
+    opacity: 0.522;
+    content: "";
+}
+
+.slider-inf{
+    position: absolute;
+    top: 237px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+   width: 760px;
+   font-family: roboto;
+}
+.slider-title{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.slider-text{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300 ;
+    font-family: Roboto ;
+}
+
+.slider-ctrl{
+        width: 104px;
+        height: 104px;
+        background-color: transparent;
+}
+    
+    .slider-btn{
+        width: 1100px;
+        position: absolute;
+        top: 46%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background-repeat: no-repeat;
+       background-position: center;
+       
+    }
+      
+.slider-ctrl-prev{
+    float: left ;
+    background-image: url("../images/arrow-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(78, 198, 171);
+    opacity: 0.651;
+    border: none;
+                    }
+
+.slider-ctrl-next{
+    float: right;
+    background-image: url("../images/arrow-right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+      background-color: rgb(26, 188, 156);
+      border: none;
+        
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+.products{
+    background-color: #e9f0fd;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.products-list{
+    margin: 0 auto;
+}
+
+.product-link{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.products-link{
+
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+h2{
+      
+    font-size: 45px;
+    
+    color: #515151;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 120px;}
+
+
+    h2::after{
+        content: '';
+display: block;
+width: 160px;
+height: 7px;
+background-color: #1abc9c;
+margin: 0 auto;
+margin-top: 20px;
+}
+
+
+  .products-list-item {
+      float: left; 
+      width:255px ;
+      margin-right: 30px;
+      list-style:none ;
+  }
+
+  .products-list-item:nth-child(4n)
+  {
+      margin-right: 0;
+  }
+
+  .about-products{
+    width: 200px;
+    float: left;
+    background-color:#1d1e1e;
+    font-size: 18px;
+    line-height: 30px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.price{
+    width: 55px;
+    height: 40px;
+    float: left;
+    background-color: #c7c7c7;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+.inside-products:hover .about-products{
+    background-color: #1abc9c;
+  }
+
+.inside-products:hover .price{
+background-color:#caeae6;
+}
+
+
+  
+.btn-list{
+    list-style: none;
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+
+
+.overlay-link{
+    margin-right: 7px;
+}
+.overlay-link:last-child{
+    margin-top: 8px;
+}
+.overlay-link:hover{
+    background-color: #1abc9c;
+}
+.products-list-item:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+    .btn-list-item{
+        float: left;
+    }
+
+.image-wrapper{
+    position: relative;
+}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 10px;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-style: solid;
+    background-clip: padding-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+
+   .overlay-link{
+   
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.65);
+    border-style: solid;
+    background-color: transparent;
+   
+    
+     
+ }
+  
+  
+
+
+
+
+
+
+
+
+
+
+.like{
+    background-image: url(../images/like.png);
+   
+}
+
+.share{
+    background-image: url(../images/share.png);
+
+}
+.time{
+    background-image: url(../images/time.png);
+}
+
+.add {
+    background-image: url(../images/add.png);
+    width: 165px;
+    background-color: #323232;
+    background-position: left;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    background-position: 14px;
+    padding-left: 52px;
+}
+
+
+
+
+
+
+footer{
+
+    height: 88px;
+    text-align: center;
+    padding: 40px 0 60px;
+   background-color: rgb(50, 50, 50);
+        
+      }
+      
+
+
+
+
+
+
+.text-footer{
+    color: #fff;
+}
+.footer-link{
+    color: #fff;
+ text-decoration: none;
+    
+}
+.footer-link:hover{
+    color: #1abc9c;
+}
