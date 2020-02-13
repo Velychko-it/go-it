@@ -116,6 +116,9 @@ html{
 .slider-title{
     text-transform: uppercase;
     font-size: 60px;
+    font-weight: 900;
+    letter-spacing: -1.2px;
+    
 }
 .slider-text{
     font-size: 24px;
@@ -169,6 +172,11 @@ html{
     padding-bottom: 100px;
     padding-top: 100px;
 }
+
+.products-title{
+    font-weight: ;
+}
+
 .products-list{
     margin: 0 auto;
 }
@@ -221,6 +229,8 @@ margin-top: 40px;
 
 .inside-products{
     background-color: rgb(50, 50, 50);
+    font-weight: 600
+     ;
 }
 
 
@@ -381,8 +391,7 @@ footer{
 .footer-link{
     color: #fff;
  text-decoration: none;
+ color:#1abc9c ;
     
 }
-.footer-link:hover{
-    color: #1abc9c;
-}
+
