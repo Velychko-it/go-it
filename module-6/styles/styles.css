@@ -319,7 +319,9 @@ justify-content: space-between;
 
 
 
-
+.social-icons-item-link:hover{
+    background-color: rgb(149, 225, 211);
+}
 
 
 
