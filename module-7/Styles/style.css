@@ -1,0 +1,362 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+    
+
+/* montserrat-300 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Montserrat Light'), local('Montserrat-Light'),
+         url('../fonts/montserrat-v14-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-regular - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-600 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+         url('../fonts/montserrat-v14-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-900 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Montserrat Black'), local('Montserrat-Black'),
+         url('../fonts/montserrat-v14-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+
+/* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-slab-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-slab-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-slab-700 - latin */
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-slab-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-slab-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+
+    body{
+
+
+    }
+        
+
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+       
+    
+.container{
+    width: 58.75rem;
+    margin: 0 auto;
+}
+
+/* header */
+.page-header{
+    padding-top: 2.5rem;
+    padding-bottom: 7.5rem;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-list{
+    width: 30.3125rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-link{
+    
+    font-size: 0.875rem;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: rgb(254, 209, 54) ;
+}
+
+
+
+  
+
+
+/* main */
+
+.sarv-section{
+    padding-bottom: 7.5rem;
+}
+
+
+
+.services-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    margin-bottom: 0.9375rem;
+    
+}
+
+
+.text-under-title{
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat" serif;
+    color: rgb(119, 119, 119);
+    line-height: 1.2;
+    margin-bottom: 3.125rem;
+   
+    }
+
+
+
+    .services-list{
+        display: flex;
+        
+    }
+
+.services-list-item{
+    width: 18.125rem;
+    justify-content: space-around;
+    margin-right: 2.1875rem;
+}
+
+
+.services-second-title{
+    text-align: center;
+}
+
+
+
+.services-list-item::before{
+    content: "";
+    display:block;
+    width:84px ;
+    height: 80px;
+    background-color: ;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+        border-radius: 50% ;
+        border: 2px solid rgb(254, 209, 54);
+        margin-bottom: 1.25rem ;
+       
+}
+
+.add::before{
+    background-image: url(../images/add.jpg);
+}
+  
+.comp::before{
+    background-image: url(../images/Icon-Laptop.jpg);
+}
+
+.key::before{
+    background-image: url(../images/key.jpg);
+}
+
+
+
+.services-second-title{
+        font-size: 1.125rem;
+        font-family: "Montserrat";
+        color: rgb(34, 34, 34);
+        font-weight: 700;
+        margin-bottom: 1.0625rem;
+        }
+      
+    
+    
+        .about-services {
+            font-size: 14px;
+            font-family: "Roboto Slab";
+            color: rgb(119, 119, 119);
+            line-height:1.2;
+            text-align: center;
+            letter-spacing: -0.35px;
+          }
+
+
+
+          /*second section  */
+
+          .contact-section{
+        
+                background-color: rgb(34, 34, 34);
+               background-image: url(../images/MapImage.png);
+               background-repeat: no-repeat;
+               background-position: right;
+               padding-bottom: 6.25rem;
+
+               
+                
+              
+          }
+
+          .contact-title{
+           
+                font-size: 2.5rem;
+                font-family: "Montserrat";
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                text-transform: uppercase;
+                text-align: center;
+                line-height: 1.2;
+                margin-bottom: 0.9375rem;
+               padding-top: 6.25rem;
+              }
+              .text-under-contact-title{
+               
+                    font-size: 1rem;
+                    font-family: "DroidSerif";
+                    color: rgb(119, 119, 119);
+                    font-style: italic;
+                    line-height: 1.2;
+                    text-align: center;
+                    margin-bottom:4.6875rem ;
+                    
+                   
+                  }
+                  
+
+
+                  /* inp */
+
+                 
+
+
+
+
+                  input{
+                      width: 28.125rem;
+                      height: 3.125rem;
+
+                  }
+
+                  textarea{
+                      width: 28.125rem;
+                      height: 13.125rem;
+                  }
+
+
+                  textarea::placeholder {
+                    font-size: 0.875rem;
+                    font-family: "Montserrat", sans-serif;
+                    color: rgb(187, 187, 187);
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    line-height: 1.2;
+                    padding-left: 1.375rem;
+                    padding-top: 1.25rem;
+                    }
+input::placeholder{ font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-left: 1.375rem;
+    padding-top: 1.25rem;
+
+}
+                  .profile-form{
+                      display: flex;
+                      justify-content: space-between;
+                      flex-wrap: wrap;
+                  }
+              
+.profile-form-list-item{
+    margin-bottom: 1.75rem;
+}
+
+
+              
+          .send-button{
+              margin: 0 auto;
+              display: block;
+              width: 15rem;
+              height: 3.75rem;
+              background-color: rgb(254, 209, 54);
+              color: #fff;
+              font-family: Montserrat;
+              font-size:18px ;
+              line-height: 1.2;
+              font-weight: 700;
+              border: none;
+          }
+
+
+          input:required:focus:valid,
+textarea:required:focus:valid {
+    outline: green solid 0.25rem;
+}
+
+input:required:focus:invalid,
+textarea:required:focus:invalid {
+    outline: red solid 0.25rem;
+}
