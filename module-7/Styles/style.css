@@ -250,7 +250,8 @@ align-items: center;
                 background-color: rgb(34, 34, 34);
                background-image: url(../images/MapImage.png);
                background-repeat: no-repeat;
-               background-position: right;
+               background-position-x: right;
+               background-position-y: 120px;
                padding-bottom: 6.25rem;
 
                
