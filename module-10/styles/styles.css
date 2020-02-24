@@ -395,28 +395,28 @@ img {
 }
 
 .features-list__item--photo::before {
-  background-image: url(/images/alarm.svg);
+  background-image: url(../images/alarm.svg);
   fill: rgb(149, 225, 211);
 }
 
 .features-list__item--web::before {
-  background-image: url(/images/graph.svg);
+  background-image: url(../images/graph.svg);
 }
 
 .features-list__item--creat::before {
-  background-image: url(/images/monitor.svg);
+  background-image: url(../images/monitor.svg);
 }
 
 .features-list__item--seo::before {
-  background-image: url(/images/book.svg);
+  background-image: url(../images/book.svg);
 }
 
 .features-list__item--html::before {
-  background-image: url(/images/home.svg);
+  background-image: url(../images/home.svg);
 }
 
 .features-list__item--dig::before {
-  background-image: url(/images/pricel.svg);
+  background-image: url(../images/pricel.svg);
 }
 
 
