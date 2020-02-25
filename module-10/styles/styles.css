@@ -150,18 +150,17 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
-  .header {
-    background-image: url("../images/bg@2x.jpg");
-  }
-}
-
-.header {
   padding-top: 40px;
   padding-bottom: 220px;
 }
+
+/* @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+  .header {
+    background-image: url("../images/bg@2x.jpg");
+  }
+} */
+
+
 
 .navigation {
   display: -webkit-box;
@@ -290,9 +289,13 @@ img {
   height: 35px;
   border-color: #fff;
 }
-/* _____________________________________________ */
 
-/* MAIN */
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+  .header {
+    background-image: url("../images/bg@2x.jpg");
+  }
+}
+/* -------------------------- */
 
 .section__description {
   text-align: center;
@@ -324,7 +327,6 @@ img {
   margin-top: 40px;
 }
 
-/* -------------------------------------- */
 
 .features-list__title {
   font-family: Montserrat;
@@ -343,9 +345,7 @@ img {
   line-height: 24px;
 }
 
-.our-team {
-  padding-bottom: 100px;
-}
+
 
 .features-list {
   display: -webkit-box;
@@ -418,7 +418,7 @@ img {
 .features-list__item--dig::before {
   background-image: url(../images/pricel.svg);
 }
-
+/* ----------------------------------- */
 
 .section-team__title-text {
   font-size: 24px;
@@ -462,8 +462,11 @@ img {
   text-align: center;
   line-height: 24px;
 }
-/* _______________________________________________________________ */
-.section-team{
+
+
+
+
+.team{
   margin-bottom: 80px;
 }
 
